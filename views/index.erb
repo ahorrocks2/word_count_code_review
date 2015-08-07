@@ -1,12 +1,13 @@
-<h1>Lets Count 'em Up!</h1>
+<h1>"You can count on me!"</h1>
+<h4>I count how many times a given word appears in a given sentence.</h4>
 <form action="/word_count">
   <div class="form-group">
-    <label for="word_count">Give me a sentence:</label>
-    <input id="word_count" name="word_count" class="form-control" type="text">
+    <label for="word_count" class="sr-only">Input Sentence</label>
+    <input id="word_count" name="word_count" class="form-control" type="text" placeholder="Type a sentence or phrase">
   </div>
   <div class="form-group">
-    <label for="word">What word would you like to count?</label>
-    <input id="word" name="word" class="form-control" type="text">
+    <label for="word" class="sr-only">Input word to check</label>
+    <input id="word" name="word" class="form-control" type="text" placeholder="Type a word you want to account for!">
   </div>
-  <button type ="submit" class="btn-success">Lets Count</button>
+  <button type ="submit" class="btn btn-primary btn-lg btn-block">Lets Count</button>
 </form>
