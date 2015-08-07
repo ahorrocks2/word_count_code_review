@@ -11,7 +11,7 @@ describe('String#word_count') do
   end
 
   it('Returns number of times a word appears in a given string even in cases of punctuation') do
-    expect(("The cat in the hat!").word_count("hat")).to(eq(1))
+    expect(("The, cat in the hat").word_count("the")).to(eq(2))
   end
 
 end
